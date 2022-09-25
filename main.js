@@ -16,3 +16,4 @@ const app = express.default();
 
 // HTTP/HTTPS Server
 const SERVER = http.createServer(app);
+SERVER.listen();
